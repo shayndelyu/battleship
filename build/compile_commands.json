@@ -1,0 +1,26 @@
+[
+{
+  "directory": "C:/Users/shayndel/OneDrive/CLionProjects/battleship/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++1z -o CMakeFiles\\battleship.dir\\main.cpp.obj -c C:\\Users\\shayndel\\OneDrive\\CLionProjects\\battleship\\main.cpp",
+  "file": "C:/Users/shayndel/OneDrive/CLionProjects/battleship/main.cpp",
+  "output": "CMakeFiles/battleship.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/shayndel/OneDrive/CLionProjects/battleship/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++1z -o CMakeFiles\\battleship.dir\\Ship.cpp.obj -c C:\\Users\\shayndel\\OneDrive\\CLionProjects\\battleship\\Ship.cpp",
+  "file": "C:/Users/shayndel/OneDrive/CLionProjects/battleship/Ship.cpp",
+  "output": "CMakeFiles/battleship.dir/Ship.cpp.obj"
+},
+{
+  "directory": "C:/Users/shayndel/OneDrive/CLionProjects/battleship/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++1z -o CMakeFiles\\battleship.dir\\Board.cpp.obj -c C:\\Users\\shayndel\\OneDrive\\CLionProjects\\battleship\\Board.cpp",
+  "file": "C:/Users/shayndel/OneDrive/CLionProjects/battleship/Board.cpp",
+  "output": "CMakeFiles/battleship.dir/Board.cpp.obj"
+},
+{
+  "directory": "C:/Users/shayndel/OneDrive/CLionProjects/battleship/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++1z -o CMakeFiles\\battleship.dir\\User.cpp.obj -c C:\\Users\\shayndel\\OneDrive\\CLionProjects\\battleship\\User.cpp",
+  "file": "C:/Users/shayndel/OneDrive/CLionProjects/battleship/User.cpp",
+  "output": "CMakeFiles/battleship.dir/User.cpp.obj"
+}
+]

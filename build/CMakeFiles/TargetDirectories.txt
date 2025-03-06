@@ -1,0 +1,3 @@
+C:/Users/shayndel/OneDrive/CLionProjects/battleship/build/CMakeFiles/battleship.dir
+C:/Users/shayndel/OneDrive/CLionProjects/battleship/build/CMakeFiles/edit_cache.dir
+C:/Users/shayndel/OneDrive/CLionProjects/battleship/build/CMakeFiles/rebuild_cache.dir
