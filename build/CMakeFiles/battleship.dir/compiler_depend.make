@@ -373,7 +373,10 @@ CMakeFiles/battleship.dir/main.cpp.obj: C:/Users/shayndel/OneDrive/CLionProjects
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/numeric \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_numeric.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/ctime \
-  C:/MinGW/include/time.h
+  C:/MinGW/include/time.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/chrono \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/ratio \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/parse_numbers.h
 
 
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/ext/string_conversions.h:
@@ -629,3 +632,9 @@ C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/numeric:
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_numeric.h:
 
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/ctime:
+
+C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/chrono:
+
+C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/ratio:
+
+C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/parse_numbers.h:

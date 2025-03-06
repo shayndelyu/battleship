@@ -2,6 +2,7 @@
 #include "User.h"
 #include <random>
 #include <ctime>
+#include <chrono>
 
 // Function to check if a ship placement is valid
 bool isValidPlacement(const Board& board, int x, int y, int length, bool isHorizontal) {
@@ -21,9 +22,9 @@ bool isValidPlacement(const Board& board, int x, int y, int length, bool isHoriz
 
 // Function to randomly place ships for a user
 bool placeRandomShips(Board& board, bool isPlayer1) {
-    // Use different seeds for each player
-    std::random_device rd;
-    std::mt19937 gen(rd());
+    // Use different seeds for each player based on current time and player number
+    unsigned seed = std::chrono::system_clock::now().time_since_epoch().count() + (isPlayer1 ? 0 : 1000);
+    std::mt19937 gen(seed);
     std::uniform_int_distribution<> dis(0, 9);
     std::uniform_int_distribution<> disBool(0, 1);
 
@@ -85,6 +86,9 @@ int main() {
         success = placeRandomShips(tempBoard1, true);
     }
     user = User(tempBoard1);  // Create user with the valid board
+
+    // Add a small delay using a loop to ensure different random seeds
+    for (volatile int i = 0; i < 1000000; i++) {}
 
     success = false;
     Board tempBoard2;
